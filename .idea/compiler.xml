@@ -1,6 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="defaultObfuscationEnv" value="named:intermediary" />
+        <option name="inMapFileNamedIntermediary" value="C:\Users\lx\.gradle\caches\fabric-loom\1.19.4\net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2\mappings.tiny" />
+        <option name="outMapFileNamedIntermediary" value="C:\git\wyoming\build\loom-cache\mixin-map-net.fabricmc.yarn.1_19_4.1.19.4+build.2-v2.main.tiny" />
+        <option name="outRefMapFile" value="C:\git\wyoming\build\classes\java\main\wyoming-refmap.json" />
+        <option name="quiet" value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.wispforest/owo-lib/0.10.3+1.19.4/a17decd63e9da0f5e0bc818645dbe592220c1d90/owo-lib-0.10.3+1.19.4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/blue.endless/jankson/1.2.2/eff82149f9a68fcb9dc3e2daf1793955f1425b26/jankson-1.2.2.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc/fabric-loader/0.14.17/7b875f1276f3005ab1956c54a0bffded6558c16b/fabric-loader-0.14.17.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-api/0.76.0+1.19.4/3914550ad467d47a3e027a24bf2d51f5f68b2e5a/fabric-api-0.76.0+1.19.4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-transfer-api-v1/3.0.1+9003cbe9f4/753535826de9b46075b19e39cf621ac7a01a43a4/fabric-transfer-api-v1-3.0.1+9003cbe9f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-api-lookup-api-v1/1.6.24+49abcf7ef4/36e257b30e8aaae534e60ff63d0603a91f9e5d3a/fabric-api-lookup-api-v1-1.6.24+49abcf7ef4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-blockrenderlayer-v1/1.1.33+c2e6f674f4/f23687233802b8819e09b8af3af85f1f0264f780/fabric-blockrenderlayer-v1-1.1.33+c2e6f674f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-client-tags-api-v1/1.0.14+1134c5b8f4/5244a61c2178b470524bed8604be02a13ad41ef1/fabric-client-tags-api-v1-1.0.14+1134c5b8f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-command-api-v2/2.2.4+ae0966baf4/51c905cccefb0fccea66211b2a9985f1ade7227c/fabric-command-api-v2-2.2.4+ae0966baf4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-content-registries-v0/3.5.7+ae0966baf4/424b5992dd1584e88eeb61e06bc9de2e8646704f/fabric-content-registries-v0-3.5.7+ae0966baf4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-convention-tags-v1/1.4.0+9a7c5daaf4/25498965d0c3824066c298136714afdbdaf10de2/fabric-convention-tags-v1-1.4.0+9a7c5daaf4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-data-generation-api-v1/11.3.5+5da15ca1f4/9ef399c8f571bf58f61b629585b558fe0d5baa2b/fabric-data-generation-api-v1-11.3.5+5da15ca1f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-dimensions-v1/2.1.44+7f87f8faf4/95fc09dcddb3b650fd3358cfeabb694d6ef1607e/fabric-dimensions-v1-2.1.44+7f87f8faf4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-entity-events-v1/1.5.12+e45f7c65f4/c23c9249c18a0ccc6149961366ef1b2d5a48ee11/fabric-entity-events-v1-1.5.12+e45f7c65f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-events-interaction-v0/0.4.42+a1ccd7bff4/807144e3416d203f5628d23c3ce9eb20193d2703/fabric-events-interaction-v0-0.4.42+a1ccd7bff4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-gametest-api-v1/1.2.2+ae0966baf4/1248ef008de92ec75d6dece64f875569852faad7/fabric-gametest-api-v1-1.2.2+ae0966baf4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-item-api-v1/2.1.16+09a3510cf4/d85952195b1e35dd1cc4137feb6ad41b9015f74b/fabric-item-api-v1-2.1.16+09a3510cf4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-item-group-api-v1/3.0.3+043f9acff4/8d3bb4cc99dcb71c22aeedf469b5b993237bb858/fabric-item-group-api-v1-3.0.3+043f9acff4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-mining-level-api-v1/2.1.37+49abcf7ef4/21bb1068366244b561af7dd3464028a76c9cb310/fabric-mining-level-api-v1-2.1.37+49abcf7ef4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-lifecycle-events-v1/2.2.14+5da15ca1f4/fb7664056efe2bd9ba2ed7715b5f99c3dfe0c2a5/fabric-lifecycle-events-v1-2.2.14+5da15ca1f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-loot-api-v2/1.1.25+75e98211f4/4b566a34854eeb8fd4569f599f0c160e2ad1eec8/fabric-loot-api-v2-1.1.25+75e98211f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-message-api-v1/5.1.0+1ee8be40f4/207b0f89d10d25292df7c998485e0cec937d82e/fabric-message-api-v1-5.1.0+1ee8be40f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-models-v0/0.3.29+11ba9c3bf4/ff6516fa3a983428ab8ef9848987187c6bb850ff/fabric-models-v0-0.3.29+11ba9c3bf4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-recipe-api-v1/1.0.6+a1ccd7bff4/45e053f69f2721fd94dd50dbd97d135e6a26312e/fabric-recipe-api-v1-1.0.6+a1ccd7bff4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-registry-sync-v0/2.1.2+a383ab97f4/eea83b00cdb43589050c082b8abb3b17d4c29669/fabric-registry-sync-v0-2.1.2+a383ab97f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-screen-handler-api-v1/1.3.18+5da15ca1f4/71fc216bd963dcfb925357b1aa6a3f471b29b768/fabric-screen-handler-api-v1-1.3.18+5da15ca1f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-networking-api-v1/1.2.22+ca5f59aaf4/af45d67bcb13dc9b115637ea0c4b1c5c1f0a0ce1/fabric-networking-api-v1-1.2.22+ca5f59aaf4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-object-builder-api-v1/7.0.1+63b515f4f4/1b7d9dd87518f46805d0057f3aa80e746d567b45/fabric-object-builder-api-v1-7.0.1+63b515f4f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-particles-v1/1.0.22+f1e4495bf4/9fac6770c0e7f5b9265a5d725c1006349bb09f74/fabric-particles-v1-1.0.22+f1e4495bf4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-renderer-indigo/1.1.0+81e8c576f4/e410c1153c93878f0f4f80b18fe0f727a096e189/fabric-renderer-indigo-1.1.0+81e8c576f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-renderer-api-v1/2.2.4+81e8c576f4/3ba50a5d47a8e8fc7010f833ba91cd2c7c4ad379/fabric-renderer-api-v1-2.2.4+81e8c576f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-rendering-data-attachment-v1/0.3.27+afca2f3ef4/5e99ff23d6470f39370ae357e99d29118cfe30f9/fabric-rendering-data-attachment-v1-0.3.27+afca2f3ef4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-rendering-fluids-v1/3.0.20+f1e4495bf4/ece2fb4cc5cc7cb5c2fb79a1282316b124427e61/fabric-rendering-fluids-v1-3.0.20+f1e4495bf4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-rendering-v1/2.1.0+8f878217f4/a9378fae3ca7d3d6a696542d8698c69c27ea5cec/fabric-rendering-v1-2.1.0+8f878217f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-screen-api-v1/1.0.44+8c25edb4f4/3e6ada6c52c49cb0bfead224b34e10d279eb322f/fabric-screen-api-v1-1.0.44+8c25edb4f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-api-base/0.4.23+9ff28bcef4/ac288104e20524ba9a2bb7ff9c1ec5b43b365df2/fabric-api-base-0.4.23+9ff28bcef4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-biome-api-v1/13.0.6+348a9c64f4/4b96c9543b1d8524db57d882fb033acace1d91fa/fabric-biome-api-v1-13.0.6+348a9c64f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-block-api-v1/1.0.5+e022e5d1f4/83e805ff05ba6a1cc63410753aa5c9da5a5b7/fabric-block-api-v1-1.0.5+e022e5d1f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-crash-report-info-v1/0.2.14+aeb40ebef4/abad7042e96053c4335275540fad392a56df2ec3/fabric-crash-report-info-v1-0.2.14+aeb40ebef4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-game-rule-api-v1/1.0.32+a1ccd7bff4/cec30cfbbb088e78c8c5a90f2494aba95655a7bc/fabric-game-rule-api-v1-1.0.32+a1ccd7bff4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-key-binding-api-v1/1.0.32+c477957ef4/71d1492e61af371b780bd264667c1f8411ab6ef5/fabric-key-binding-api-v1-1.0.32+c477957ef4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-resource-conditions-api-v1/2.3.0+e6c7d4eef4/a63fc452523f42cdead45bdd1ade9fe50bb61596/fabric-resource-conditions-api-v1-2.3.0+e6c7d4eef4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-resource-loader-v0/0.11.0+938a1d56f4/dfbbea02c6ab4549abeb8d693d9c259370d7c61/fabric-resource-loader-v0-0.11.0+938a1d56f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-sound-api-v1/1.0.8+75e98211f4/1e84b1b8d9981fd85a35a258fabe40546bc25197/fabric-sound-api-v1-1.0.8+75e98211f4.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.fabricmc.fabric-api/fabric-transitive-access-wideners-v1/3.0.2+63b515f4f4/818d42e9c453390b71f3e583e69431e90c45655f/fabric-transitive-access-wideners-v1-3.0.2+63b515f4f4.jar" />
+        </processorPath>
+        <module name="wyoming.main" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel target="17" />
   </component>
 </project>

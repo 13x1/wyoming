@@ -14,6 +14,9 @@ repositories {
     // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
     // See https://docs.gradle.org/current/userguide/declaring_repositories.html
     // for more information about repositories.
+
+    maven("https://maven.wispforest.io")
+    maven("https://jitpack.io")
 }
 
 dependencies {
@@ -23,6 +26,23 @@ dependencies {
 
     modImplementation("net.fabricmc:fabric-language-kotlin:${property("fabric_kotlin_version")}")
     modImplementation("net.fabricmc.fabric-api:fabric-api:${property("fabric_version")}")
+
+    // owo
+    modImplementation("io.wispforest:owo-lib:${property("owo_version")}")
+    annotationProcessor("io.wispforest:owo-lib:${property("owo_version")}")
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir("src/main/")
+            srcDir("build/generated/sources/")
+        }
+        kotlin {
+            srcDir("src/main/")
+            srcDir("build/generated/sources/")
+        }
+    }
 }
 
 tasks {
