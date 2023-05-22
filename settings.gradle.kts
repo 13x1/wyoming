@@ -1,4 +1,4 @@
-rootProject.name = "fabric-example-mod-kotlin-with-kotlin-dsl"
+rootProject.name = "wyoming"
 pluginManagement {
     repositories {
         maven("https://maven.fabricmc.net/") {
