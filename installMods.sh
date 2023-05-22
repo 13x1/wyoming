@@ -1,0 +1,1 @@
+cp libs/* run/mods/
