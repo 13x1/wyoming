@@ -30,6 +30,10 @@ dependencies {
     // owo
     modImplementation("io.wispforest:owo-lib:${property("owo_version")}")
     annotationProcessor("io.wispforest:owo-lib:${property("owo_version")}")
+
+    // wynntils
+    modImplementation("com.github.llamalad7.mixinextras:mixinextras-fabric:${property("mixinextras_version")}")
+    modImplementation(files("run/mods/wynntils-${property("wynntils_version")}-fabric.jar"))
 }
 
 sourceSets {

@@ -1,11 +1,12 @@
 package cx.lexi.wyoming
 
+import com.wynntils.core.WynntilsMod
 import net.fabricmc.api.ModInitializer
 
 class Wyoming : ModInitializer {
 
     override fun onInitialize() {
-        println("Config test: ${config.anIntOption()}")
+        println("Wynntils test: ${WynntilsMod.MOD_ID}")
     }
 
     companion object {
