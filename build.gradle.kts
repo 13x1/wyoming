@@ -33,7 +33,7 @@ dependencies {
 
     // wynntils
     modImplementation("com.github.llamalad7.mixinextras:mixinextras-fabric:${property("mixinextras_version")}")
-    modImplementation(files("run/mods/wynntils-${property("wynntils_version")}-fabric.jar"))
+    modImplementation(files("libs/wynntils-${property("wynntils_version")}-fabric.jar"))
 }
 
 sourceSets {
