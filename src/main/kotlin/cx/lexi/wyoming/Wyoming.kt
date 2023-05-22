@@ -6,7 +6,7 @@ import net.fabricmc.api.ModInitializer
 class Wyoming : ModInitializer {
 
     override fun onInitialize() {
-        println("Wynntils test: ${WynntilsMod.MOD_ID}")
+        println("Config test: ${config}")
     }
 
     companion object {
