@@ -9,12 +9,6 @@ group = property("maven_group")!!
 version = property("mod_version")!!
 
 repositories {
-    // Add repositories to retrieve artifacts from in here.
-    // You should only use this when depending on other mods because
-    // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
-    // See https://docs.gradle.org/current/userguide/declaring_repositories.html
-    // for more information about repositories.
-
     maven("https://maven.wispforest.io")
     maven("https://jitpack.io")
 }
@@ -38,62 +32,28 @@ dependencies {
 
 sourceSets {
     main {
-        java {
-            srcDir("src/main/")
-            srcDir("build/generated/sources/")
-        }
         kotlin {
-            srcDir("src/main/")
             srcDir("build/generated/sources/")
         }
     }
 }
 
 tasks {
-
     processResources {
         inputs.property("version", project.version)
         filesMatching("fabric.mod.json") {
-            expand(mutableMapOf("version" to project.version))
+            expand(getProperties())
         }
     }
-
     jar {
         from("LICENSE")
     }
-
-    publishing {
-        publications {
-            create<MavenPublication>("mavenJava") {
-                artifact(remapJar) {
-                    builtBy(remapJar)
-                }
-                artifact(kotlinSourcesJar) {
-                    builtBy(remapSourcesJar)
-                }
-            }
-        }
-
-        // select the repositories you want to publish to
-        repositories {
-            // uncomment to publish to the local maven
-            // mavenLocal()
-        }
-    }
-
     compileKotlin {
         kotlinOptions.jvmTarget = "17"
     }
-
 }
 
 java {
-    // Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
-    // if it is present.
     // If you remove this line, sources will not be generated.
     withSourcesJar()
 }
-
-
-
-// configure the maven publication

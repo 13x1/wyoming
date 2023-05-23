@@ -9,7 +9,6 @@ import net.minecraft.entity.ItemEntity
 import net.minecraft.text.MutableText
 import net.minecraft.text.Text
 import net.minecraft.util.Formatting as Fmt
-import net.minecraft.util.Formatting
 import java.util.*
 
 data class ItemIdentity(
@@ -39,7 +38,7 @@ private object Constants {
         "AIR" -> Fmt.WHITE
         "EARTH" -> Fmt.GREEN
         "FIRE" -> Fmt.RED
-        "WATER" -> Fmt.BLUE
+        "WATER" -> Fmt.AQUA
         else -> Fmt.YELLOW
     }
 }
