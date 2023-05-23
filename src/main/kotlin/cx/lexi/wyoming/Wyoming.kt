@@ -1,11 +1,12 @@
 package cx.lexi.wyoming
 
-import com.wynntils.core.WynntilsMod
+import cx.lexi.wyoming.feat.dropped_items.CustomItemEntityRenderer
 import net.fabricmc.api.ModInitializer
 
 class Wyoming : ModInitializer {
 
     override fun onInitialize() {
+        CustomItemEntityRenderer.register()
         println("Config test: ${config}")
     }
 

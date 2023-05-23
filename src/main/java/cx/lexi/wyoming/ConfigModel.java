@@ -12,6 +12,7 @@ public class ConfigModel {
     public Nametags nametags = new Nametags();
     public static class Nametags {
         public boolean enabled = true;
+        public boolean bouncy = true;
         public boolean sneaky = false;
         public boolean showCounts = true;
         public UnIDMode unIdMode = UnIDMode.TYPE;
@@ -25,12 +26,18 @@ public class ConfigModel {
     @Expanded @Nest
     public Visual visual = new Visual();
     public static class Visual {
+        // TODO: Implement
+        // basically just add a mxin that returns if yes
+        // ref net.minecraft.entity.ItemEntity.applyWaterBuoyancy
+        // mixin Lnet/minecraft/entity/ItemEntity;applyWaterBuoyancy()V
         public boolean disableBuoyancy = true;
         @Expanded @Nest
         public Stacking stacking = new Stacking();
         public static class Stacking {
             public boolean enabled = true;
+            @RangeConstraint(min = 1, max = 64)
             public int itemRatio = 1;
+            @RangeConstraint(min = 1, max = 64)
             public int maxItems = 8;
         }
     }

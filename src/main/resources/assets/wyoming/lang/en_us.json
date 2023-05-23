@@ -5,6 +5,8 @@
   "text.config.wyoming.section.DroppedItems": "Dropped items",
   "text.config.wyoming.category.nametags": "Nametags",
   "text.config.wyoming.option.nametags.enabled": "Enable nametags",
+  "text.config.wyoming.option.nametags.bouncy": "Bouncy nametags",
+  "text.config.wyoming.option.nametags.bouncy.tooltip": "Make the nametags bounce with the item",
   "text.config.wyoming.option.nametags.showCounts": "Show item counts",
   "text.config.wyoming.option.nametags.showGearLevel": "Show gear level",
   "text.config.wyoming.option.nametags.showGearRarity": "Show gear rarity",
@@ -21,5 +23,9 @@
   "text.config.wyoming.option.visual.stacking.enabled": "Enable modified stacking",
   "text.config.wyoming.option.visual.stacking.itemRatio": "Item ratio",
   "text.config.wyoming.option.visual.stacking.itemRatio.tooltip": "The ratio of items to be stacked.\nFor example, a ratio of 2 will join 2 items into one visual item.",
-  "text.config.wyoming.option.visual.stacking.maxItems": "Maximum displayed items"
+  "text.config.wyoming.option.visual.stacking.maxItems": "Maximum displayed items",
+  "wyoming.unID": "UnID'd",
+  "wyoming.em": "²",
+  "wyoming.eb": "²½",
+  "wyoming.le": "¼²"
 }
