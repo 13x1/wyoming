@@ -7,7 +7,7 @@ class Wyoming : ModInitializer {
 
     override fun onInitialize() {
         CustomItemEntityRenderer.register()
-        println("Config test: ${config}")
+        println("Wyoming initialized. Config: $config")
     }
 
     companion object {

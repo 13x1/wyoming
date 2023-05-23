@@ -26,10 +26,6 @@ public class ConfigModel {
     @Expanded @Nest
     public Visual visual = new Visual();
     public static class Visual {
-        // TODO: Implement
-        // basically just add a mxin that returns if yes
-        // ref net.minecraft.entity.ItemEntity.applyWaterBuoyancy
-        // mixin Lnet/minecraft/entity/ItemEntity;applyWaterBuoyancy()V
         public boolean disableBuoyancy = true;
         @Expanded @Nest
         public Stacking stacking = new Stacking();
